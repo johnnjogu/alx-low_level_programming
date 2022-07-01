@@ -6,8 +6,7 @@ int main(void)
  *
  *return (0) -after the code has print or put
  */
-
 {
-puts("\"Programming is like building a multilingual puzzle");
-return(0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
