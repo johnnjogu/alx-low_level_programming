@@ -12,7 +12,7 @@ int main(void)
 	char letter;
 	int numb;
 
-	for (numb = '0'; letter <= 'f'; letter++)
+	for (numb = '0'; numb <= '9'; letter++)
 	{
 		putchar(numb);
 	}
