@@ -1,23 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _isupper - determines if character is uppercase letter
+ * @c: single charater count
  *
- * Return: Always 0 (success)
+ * Return: 1 if uppercase & 0 otherwise
  */
 
-int main(void)
+int _isupper(int c)
 {
-	char jina[8] = "_putchar";
-
-	int i;
-
-	for (i = 0; i < 8; i++)
+	if (c >= 'A' && c <= 'Z')
 	{
-		_putchar(jina[i]);
+		return (1);
 	}
-
-	_putchar('\n');
 
 	return (0);
 }
