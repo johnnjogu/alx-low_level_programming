@@ -5,15 +5,16 @@
  *
  * @s: this is the input string
  *
- * Return: Length of string
+ * Return: void
  */
 
 int _strlen(char *s)
 {
-	int index;
+	int len = 0;
 
-	for (index = 0; s[index] != '\0' ; index++)
+	while (s[len] != '\0')
 
-		return (index);
+		len++;
+	return (len);
 
 }
