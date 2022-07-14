@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main(void)
 /**
  * main - the entry for  comment
  *
- *return (0) -after the code has print or put
+ *Return: always 0
  */
+
+int main(void)
+
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
