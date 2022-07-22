@@ -13,6 +13,6 @@ void _print_rev_recursion(cahr *s)
 	_print_rev_recursion(s);
 	s--;
 
-	_putcar(*s);
+	_putchar(*s);
 
 }
